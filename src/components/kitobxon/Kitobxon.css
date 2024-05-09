@@ -1,0 +1,44 @@
+.kitobxon-img{
+    width: 350px !important;
+    border-radius: 220px 220px 220px 100px;
+    transition: all .5s ease-in-out;
+}
+
+.kitobxon-img:hover{
+    scale: 1.1;
+    transition: all .3s ease-in-out;
+}
+
+.kitobxon-body-title{
+    color: #F65D4E;
+}
+
+.kitobxon-body-text{
+    color: #5f5f5f;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 985px) {
+    .kitobxon-img{
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .kitobxon-img{
+        width: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .kitobxon-img{
+        width: 340px !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .kitobxon-img{
+        width: 300px !important;
+    }
+}
